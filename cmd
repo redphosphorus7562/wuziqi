@@ -1,0 +1,1 @@
+python train.py --board_size 15 --lr 0.001 --batch_size 512 --buffer_size 20000 --n_games 2000 --n_playout 400 --c_puct 5 --temp 1.0 --temp_drop_step 20 --checkpoint_freq 50 --games_per_collect 32 --max_steps 200 --num_threads 32 --use_gpu
